@@ -62,5 +62,30 @@ int main (){
     // compute and print the number of pens that will be left
     // hint: find the remainder
     printf("%d", penNumber % studentNumber);
+
+    //increment operator
+
+    int myRoll = 23;
+    int mathMarks = 88;
+
+    ++myRoll;
+    --mathMarks;
+
+    printf("\n");
+    printf("%d", myRoll);
+    printf("\n");
+    printf("%d", mathMarks);
+
+    //multiple operator
+
+    int x = 9/3+8*4-2;
+
+    printf("\n");
+    printf("%d", x);
+
+    // size of operator
+
+    printf("int: %zu bytes", sizeof(x));
+
     return 0;
 }
