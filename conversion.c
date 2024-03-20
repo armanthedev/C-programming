@@ -40,17 +40,19 @@ int main(){
      return 0;
 
      // create a double variable number
-    double number = 18.7;
+    double number9 = 18.7;
 
     // declare an int variable result
-    int result;
+    int results;
 
     // convert number to int and add 5 and store sum in result
-    sum = (int) number + 5;
-    result = sum;
+    double sum = (int) number9 + 5;
+    results = sum;
 
    // print result
     printf("%d", result);
+
+    return 0;
 
 
 }
