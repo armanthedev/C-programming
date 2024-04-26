@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdbool.h>
 int main(){
 
     int num = 120;
@@ -68,7 +69,25 @@ int mobilePrice = 35000, laptopPrice = 45000;
 
 printf("%d", mobilePrice);
 printf("\n");
-printf("%d", laptopPrice);
+printf("%d\n", laptopPrice);
+
+// boolean variable;
+
+bool var1 = true;
+bool var2 = false;
+
+//print those variables;
+printf("%d\n%d", var1,var2);
+
+// check student pass or not by boolean variable;
+ int studentScore = 38;
+ int passingScore = 40;
+
+ bool result = studentScore >= passingScore;
+
+ printf("\n");
+ printf("%d\n", result);
+
 
 return 0;
 }

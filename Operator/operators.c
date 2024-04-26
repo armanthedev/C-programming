@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <stdbool.h>
 int main (){
 
+  /*
     int number1 = 45;
     int number2 = 56;
 
@@ -87,5 +89,77 @@ int main (){
 
     printf("int: %zu bytes", sizeof(x));
 
+    //comparison operator
+
+    int number11 =32;
+printf("\n");
+ // 32 equals to 32 is true (1)
+ bool result4 = (number11 == 32);
+ printf("true: %d\n", result4);
+
+ // 32 not equal to 32 is false (0)
+bool result5 = (number11 != 32);
+printf("False: %d\n", result5);
+
+// 32 equal to 40 is false (0)
+
+bool result6 = (number11 >= 40);
+printf("false: %d\n", result6);
+
+//32 not equal to 40 is true (1)
+bool result7 = (number11 != 40);
+printf("true: %d\n", result7);
+
+ // comparison operator with floating number;
+  // 21 equals to 21.0 is true
+  int number12 = 21;
+  printf("its true: %d\n", 21.0 == number12);
+
+  // 21.0 not equals to 21 is false
+  printf("it's false: %d\n", 21.0 != number12);
+
+  // 20.99 equals to 21 is false
+  printf("it is false: %d\n", 20.99 >= number12);
+
+  // 21 not equals to 20.99 is true
+  printf("it's ture: %d", 20.99 <= number12);
     return 0;
+*/
+
+    //if statement
+
+ /*int k;
+    scanf("%d", &k);
+
+    if(k >= 100){
+        printf("I will eat burger");
+    }else if(k > 50){
+        printf("I will eat puchka");
+    }else
+    {
+        printf("I can not eat anything");
+    }
+*/   
+
+    int h;
+    scanf("%d", &h);
+    if(h >= 5000){
+        printf("I will go cox's bazar \n");
+        if(h >= 10000){
+            printf(" I will go sant martin also \n");
+            if(h >= 15000){
+                printf("I will take AC Rooms Hotel");
+            }else{
+                printf("I will take non ac rooms hotel");
+            }
+        }else{
+            printf("Then I will get back \n");
+        }
+    }else{
+        printf("I won't go anywhere \n");
+    }
+    return 0;
+
+
+
 }
