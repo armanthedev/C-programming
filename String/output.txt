@@ -1,0 +1,7 @@
+print character: a
+Print ascii valu of a: 97
+
+
+
+
+ascii valu of  is 6422298
