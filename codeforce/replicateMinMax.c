@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
 
 int main()
 {
@@ -12,24 +15,17 @@ int main()
         scanf("%d", &ar[i]);
     }
 
-    int min = ar[0];
-    int max = ar[0];
-
     int min_index = 0;
+    int max_index = 0;
+
     for (int i = 1; i < n; i++)
     {
-        if (min > ar[i])
+        if (ar[min_index] > ar[i])
         {
-            min = ar[i];
             min_index = i;
         }
-    }
-    int max_index = 0;
-    for (int i = 1; i < n; i++)
-    {
-        if (max < ar[i])
+        if (ar[max_index] < ar[i])
         {
-            max = ar[i];
             max_index = i;
         }
     }
@@ -40,8 +36,6 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-
         printf("%d ", ar[i]);
     }
-    return 0;
 }
