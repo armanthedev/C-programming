@@ -1,1 +1,1 @@
-6 10 3 2 8 
+Enter a string: You entered: Hello world
