@@ -1,1 +1,4 @@
-Enter a string: You entered: Hello world
+word
+l10n
+i18n
+p43s

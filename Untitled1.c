@@ -1,30 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
-int main()
-{
-
-    char A[11];
-    scanf("%s",A);
-    char B[11];
-    scanf("%s",B);
-    int A_size = strlen(A);
-    int B_size = strlen(B);
-    printf("%d %d\n", A_size, B_size);
-    if (A_size > 0 && A[A_size] == '\n')
-    {
-        A[A_size] = '\0';
-    }
-    if (B_size > 0 && B[B_size] == '\n')
-    {
-        B[B_size] = '\0';
-    }
-    printf("%s%s\n", A, B);
-
-    char temp = A[0];
-    A[0] = B[0];
-    B[0] = temp;
-    printf("%s %s", A, B);
-
+int main() {
+    char str[100];
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);  // Input: "Hello World"
+    printf("You entered: %s", str);
     return 0;
 }
